@@ -1,0 +1,55 @@
+# Git
+.git
+.gitignore
+
+# Documentación (no necesaria en producción)
+*.md
+LICENSE
+CONTRIBUTING.md
+
+# Archivos de IDE y editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+test/
+*.test.js
+
+# Build output (se reconstruye en cada build)
+dist/
+build/
+
+# Dependencias (se regeneran con npm ci)
+node_modules/
+
+# Archivos de entorno (nunca en imagen)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# Archivos de herramientas
+dockerfile
+.dockerignore
+docker-compose*.yml
+.docker/
+
+# Misc
+*.tgz
+*.tar.gz
